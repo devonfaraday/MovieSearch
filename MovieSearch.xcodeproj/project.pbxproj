@@ -14,7 +14,6 @@
 		FDF4A5491E5757360094657B /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A5481E5757360094657B /* Keys.swift */; };
 		FDF4A54B1E5757420094657B /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A54A1E5757420094657B /* NetworkController.swift */; };
 		FDF4A54D1E5757490094657B /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A54C1E5757490094657B /* ImageController.swift */; };
-		FDF4A54F1E5757510094657B /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A54E1E5757510094657B /* MovieListTableViewController.swift */; };
 		FDF4A5511E5757600094657B /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A5501E5757600094657B /* MovieTableViewCell.swift */; };
 		FDF4A5531E57576B0094657B /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A5521E57576B0094657B /* MovieController.swift */; };
 		FDF4A5551E5757710094657B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A5541E5757710094657B /* Movie.swift */; };
@@ -31,7 +30,6 @@
 		FDF4A5481E5757360094657B /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		FDF4A54A1E5757420094657B /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		FDF4A54C1E5757490094657B /* ImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
-		FDF4A54E1E5757510094657B /* MovieListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
 		FDF4A5501E5757600094657B /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		FDF4A5521E57576B0094657B /* MovieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
 		FDF4A5541E5757710094657B /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				FDF4A5341E5756F20094657B /* Main.storyboard */,
-				FDF4A54E1E5757510094657B /* MovieListTableViewController.swift */,
 				FDF4A5501E5757600094657B /* MovieTableViewCell.swift */,
 				FDF4A5561E5763B30094657B /* MovieListViewController.swift */,
 			);
@@ -206,7 +203,6 @@
 				FDF4A5531E57576B0094657B /* MovieController.swift in Sources */,
 				FDF4A5571E5763B30094657B /* MovieListViewController.swift in Sources */,
 				FDF4A5551E5757710094657B /* Movie.swift in Sources */,
-				FDF4A54F1E5757510094657B /* MovieListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
