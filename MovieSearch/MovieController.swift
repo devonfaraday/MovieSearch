@@ -12,7 +12,7 @@ class MovieController {
     
     static func searchMovies(api_key: String = Keys.api_key, query: String, completion: @escaping (_ movies: [Movie]) -> Void) {
         var movies = [Movie]()
-        guard let url = URL(string: Keys.baseURL) else { return }
+        guard let url = URL(string: Keys.baseURLForSearch) else { return }
         let urlParameters = ["api_key": api_key, "query": query]
         defer { completion(movies) }
         NetworkController.performRequest(forURL: url, httpMethod: .get, urlParameters: urlParameters) { (data, error) in

@@ -13,6 +13,7 @@ class MovieListViewController: UIViewController, UITableViewDelegate, UITableVie
     
     // MARK: - Properties
     
+    var dataImage: Data?
     @IBOutlet weak var tableView: UITableView!
     var movies = [Movie]() {
         didSet {
@@ -40,6 +41,7 @@ class MovieListViewController: UIViewController, UITableViewDelegate, UITableVie
         let movie = movies[indexPath.row]
         
         cell.movie = movie
+        //cell.delegate = self
         
         return cell
     }
@@ -58,7 +60,56 @@ class MovieListViewController: UIViewController, UITableViewDelegate, UITableVie
     func getMovieFrom(term: String) {
         MovieController.searchMovies(query: term) { (movies) in
             self.movies = movies
+            
         }
+    }
+    
+    // MARK: - Delegate Function
+    
+//    func isFavorteMovieButtonTapped(_ sender: MovieTableViewCell) {
+//        guard let indexPath = tableView.indexPath(for: sender) else { return }
+//        guard let movie = sender.movie else { return }
+//        ImageController.getImage(atURL: movie.posterURLString) { (image) in
+//            guard let image = image else { return }
+//            self.dataImage = UIImagePNGRepresentation(image)
+//        }
+//        guard let dataImage = dataImage else { return }
+//        FavoritedMovieController.shared.addFavoriteWith(title: movie.title, overview: movie.overview, rating: movie.rating, posterImage: dataImage)
+//    
+//        tableView.reloadRows(at: [indexPath], with: .automatic)
+//    
+//}
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let indexPath = tableView.indexPathForSelectedRow else { return }
+        let movie = movies[indexPath.row]
+        if segue.identifier == Keys.toShowPosterKey {
+            guard let detailVC = segue.destination as? MoviePosterViewController else { return }
+            detailVC.movie = movie
+        }
+        if segue.identifier == Keys.mainListToDetailKey {
+            guard let detailVC = segue.destination as? MovieDetailViewController else { return }
+            detailVC.movie = movie
+        }
+        
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

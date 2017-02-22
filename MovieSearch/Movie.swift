@@ -16,6 +16,7 @@ struct Movie {
     let overview: String
     let rating: Double
     let posterURLString: String
+    let id: Int
 }
 
 extension Movie {
@@ -26,8 +27,9 @@ extension Movie {
         guard let title = dictionary[Keys.titleKey] as? String,
             let overview = dictionary[Keys.overviewKey] as? String,
             let rating = dictionary[Keys.ratingKey] as? Double,
-            let posterURLString = dictionary[Keys.posterKey] as? String else { return nil }
+            let posterURLString = dictionary[Keys.posterKey] as? String,
+            let id = dictionary[Keys.idKey] as? Int else { return nil }
         
-        self.init(title: title, overview: overview, rating: rating, posterURLString: posterURLString)
+        self.init(title: title, overview: overview, rating: rating, posterURLString: posterURLString, id: id)
     }
 }

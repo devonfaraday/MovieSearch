@@ -18,6 +18,16 @@
 		FDF4A5531E57576B0094657B /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A5521E57576B0094657B /* MovieController.swift */; };
 		FDF4A5551E5757710094657B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A5541E5757710094657B /* Movie.swift */; };
 		FDF4A5571E5763B30094657B /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A5561E5763B30094657B /* MovieListViewController.swift */; };
+		FDF4A55D1E576E1B0094657B /* MovieSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A55B1E576E1B0094657B /* MovieSearch.xcdatamodeld */; };
+		FDF4A5611E576EDC0094657B /* FavoritedMovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A5601E576EDC0094657B /* FavoritedMovieController.swift */; };
+		FDF4A5631E576F200094657B /* FavoritedMovie+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A5621E576F200094657B /* FavoritedMovie+Convenience.swift */; };
+		FDF4A5651E57768B0094657B /* MoviePosterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A5641E57768B0094657B /* MoviePosterViewController.swift */; };
+		FDF4A5671E5776A10094657B /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A5661E5776A10094657B /* MovieDetailViewController.swift */; };
+		FDF4A5691E5776BA0094657B /* FavoiteMoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A5681E5776BA0094657B /* FavoiteMoviesTableViewController.swift */; };
+		FDF4A56B1E5777170094657B /* FavoriteMovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A56A1E5777170094657B /* FavoriteMovieTableViewCell.swift */; };
+		FDF4A56D1E57A1060094657B /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A56C1E57A1060094657B /* CoreDataStack.swift */; };
+		FDF4A56F1E5A13A90094657B /* MovieDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A56E1E5A13A90094657B /* MovieDetailController.swift */; };
+		FDF4A5711E5A58B60094657B /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF4A5701E5A58B60094657B /* MovieDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +44,16 @@
 		FDF4A5521E57576B0094657B /* MovieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
 		FDF4A5541E5757710094657B /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		FDF4A5561E5763B30094657B /* MovieListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		FDF4A55C1E576E1B0094657B /* MovieSearch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovieSearch.xcdatamodel; sourceTree = "<group>"; };
+		FDF4A5601E576EDC0094657B /* FavoritedMovieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritedMovieController.swift; sourceTree = "<group>"; };
+		FDF4A5621E576F200094657B /* FavoritedMovie+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FavoritedMovie+Convenience.swift"; sourceTree = "<group>"; };
+		FDF4A5641E57768B0094657B /* MoviePosterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviePosterViewController.swift; sourceTree = "<group>"; };
+		FDF4A5661E5776A10094657B /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		FDF4A5681E5776BA0094657B /* FavoiteMoviesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoiteMoviesTableViewController.swift; sourceTree = "<group>"; };
+		FDF4A56A1E5777170094657B /* FavoriteMovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteMovieTableViewCell.swift; sourceTree = "<group>"; };
+		FDF4A56C1E57A1060094657B /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		FDF4A56E1E5A13A90094657B /* MovieDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailController.swift; sourceTree = "<group>"; };
+		FDF4A5701E5A58B60094657B /* MovieDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +112,10 @@
 				FDF4A5341E5756F20094657B /* Main.storyboard */,
 				FDF4A5501E5757600094657B /* MovieTableViewCell.swift */,
 				FDF4A5561E5763B30094657B /* MovieListViewController.swift */,
+				FDF4A5641E57768B0094657B /* MoviePosterViewController.swift */,
+				FDF4A5661E5776A10094657B /* MovieDetailViewController.swift */,
+				FDF4A5681E5776BA0094657B /* FavoiteMoviesTableViewController.swift */,
+				FDF4A56A1E5777170094657B /* FavoriteMovieTableViewCell.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -102,6 +126,7 @@
 				FDF4A5481E5757360094657B /* Keys.swift */,
 				FDF4A54A1E5757420094657B /* NetworkController.swift */,
 				FDF4A54C1E5757490094657B /* ImageController.swift */,
+				FDF4A56C1E57A1060094657B /* CoreDataStack.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -110,6 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				FDF4A5521E57576B0094657B /* MovieController.swift */,
+				FDF4A5601E576EDC0094657B /* FavoritedMovieController.swift */,
+				FDF4A56E1E5A13A90094657B /* MovieDetailController.swift */,
 			);
 			name = ModelController;
 			sourceTree = "<group>";
@@ -118,6 +145,9 @@
 			isa = PBXGroup;
 			children = (
 				FDF4A5541E5757710094657B /* Movie.swift */,
+				FDF4A55B1E576E1B0094657B /* MovieSearch.xcdatamodeld */,
+				FDF4A5621E576F200094657B /* FavoritedMovie+Convenience.swift */,
+				FDF4A5701E5A58B60094657B /* MovieDetail.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -198,11 +228,21 @@
 				FDF4A5311E5756F20094657B /* AppDelegate.swift in Sources */,
 				FDF4A5491E5757360094657B /* Keys.swift in Sources */,
 				FDF4A5511E5757600094657B /* MovieTableViewCell.swift in Sources */,
+				FDF4A5711E5A58B60094657B /* MovieDetail.swift in Sources */,
 				FDF4A54B1E5757420094657B /* NetworkController.swift in Sources */,
+				FDF4A5671E5776A10094657B /* MovieDetailViewController.swift in Sources */,
 				FDF4A54D1E5757490094657B /* ImageController.swift in Sources */,
+				FDF4A5611E576EDC0094657B /* FavoritedMovieController.swift in Sources */,
+				FDF4A56D1E57A1060094657B /* CoreDataStack.swift in Sources */,
+				FDF4A5631E576F200094657B /* FavoritedMovie+Convenience.swift in Sources */,
+				FDF4A5651E57768B0094657B /* MoviePosterViewController.swift in Sources */,
 				FDF4A5531E57576B0094657B /* MovieController.swift in Sources */,
 				FDF4A5571E5763B30094657B /* MovieListViewController.swift in Sources */,
+				FDF4A56B1E5777170094657B /* FavoriteMovieTableViewCell.swift in Sources */,
+				FDF4A55D1E576E1B0094657B /* MovieSearch.xcdatamodeld in Sources */,
 				FDF4A5551E5757710094657B /* Movie.swift in Sources */,
+				FDF4A56F1E5A13A90094657B /* MovieDetailController.swift in Sources */,
+				FDF4A5691E5776BA0094657B /* FavoiteMoviesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,8 +406,22 @@
 				FDF4A5411E5756F20094657B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDF4A55B1E576E1B0094657B /* MovieSearch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDF4A55C1E576E1B0094657B /* MovieSearch.xcdatamodel */,
+			);
+			currentVersion = FDF4A55C1E576E1B0094657B /* MovieSearch.xcdatamodel */;
+			path = MovieSearch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FDF4A5251E5756F20094657B /* Project object */;
 }
